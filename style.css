@@ -1,0 +1,116 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #FFF;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+a {
+    color: #cb8ffc;
+}
+
+a:hover {
+    color: #d8c5e8;
+    text-decoration: none;
+}
+
+header {
+    background: 
+    linear-gradient(
+        to bottom right,
+      rgba(152, 92, 201, 0.9), 
+      rgba(31, 11, 48, 0.9)
+    ),
+    url('images/gym.jpg') fixed center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar ul li{
+    margin: 0 1rem;
+}
+
+.navbar ul li a {
+    color: rgb(230, 230, 230) !important;
+}
+
+.navbar ul li a:hover {
+    color: #FFF !important;
+}
+
+.headings {
+    background: 
+    linear-gradient(
+        to top left,
+      rgba(152, 92, 201, 0.9), 
+      rgba(31, 11, 48, 0.9)
+    ),
+    url('images/gym2.jpeg') fixed center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.headings h2 {
+    color: #d8c5e8;
+}
+
+.boxes, .workout-content {
+    padding: 200px 0;
+}
+
+.workout {
+    background: 
+    linear-gradient(
+        to top right,
+      rgba(152, 92, 201, 0.9), 
+      rgba(31, 11, 48, 0.9)
+    ),
+    url('images/gym.jpg') fixed center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.video {
+    -webkit-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.7);
+    -moz-box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.7);
+    box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.7);
+}
+
+h2, .navbar, .display-3, i {
+    text-shadow: 0px 0px 5px #000;
+}
+
+footer {
+    background: #1f0b30;
+    padding: 50px 0;
+}
+
+.footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+[data-scroll] {
+    transition: all 2s;
+
+}
+
+[data-scroll="in"] {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+[data-scroll="out"] {
+    opacity: 0;
+    transform: translateX(-200px);
+}
